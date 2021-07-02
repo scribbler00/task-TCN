@@ -31,7 +31,6 @@ However, in contrast to the task embedding for MLPs, an additional transformatio
 
 - doc: contains various visalizations
     - It also includes the [supplementary material](./doc/supplementary_material.pdf)
-- results: where all results will be stored including csvs, it also includes the trained models
 - dies: contains the models such as the task embedding mlp and the task-TCN
 - rep: is used for preprocessing and as a framework for transfer learning in renewable power forecasts
 - confer/experiments: contains all the scripts to execute the experiment:
