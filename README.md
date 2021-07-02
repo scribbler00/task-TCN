@@ -32,7 +32,7 @@ However, in contrast to the task embedding for MLPs, an additional transformatio
 - doc: contains various visalizations
     - It also includes the [supplementary material](./doc/supplementary_material.pdf)
 - dies: contains the models such as the task embedding mlp and the task-TCN
-- rep: is used for preprocessing and as a framework for transfer learning in renewable power forecasts
+- rep: is used for preprocessing
 - confer/experiments: contains all the scripts to execute the experiment:
     1. `confer/experiments/create_splits.py` creates a cross validation splits of source and target data.
     2. `confer/experiments/source.py` trains on those splits a source model. Can be either mlp or cnn.
