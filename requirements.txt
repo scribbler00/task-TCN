@@ -1,0 +1,25 @@
+numpy
+scipy
+sklearn
+matplotlib
+torch
+pandas
+fastai
+fastcore # adds some nice extension to python
+seaborn
+nose # tests
+pytest-cov
+ipython
+notebook
+jupyter
+tables # for hdf5 stuff
+jupyter_contrib_nbextensions
+black # code formatting
+rope # refactoring lib
+pbar
+nb_black # black code formatting in notebboks
+blitz-bayesian-pytorch
+ray
+fastdtw
+stumpy
+ray[tune]
