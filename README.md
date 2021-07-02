@@ -30,7 +30,7 @@ However, in contrast to the task embedding for MLPs, an additional transformatio
 ## Project Structure:
 
 - doc: contains various visalizations
-    - It also includes the [supplementary material](./doc/supplementary_material.pdf)
+    - It also includes the [supplementary material](https://github.com/scribbler00/task-TCN/blob/main/doc/supplementary%20material.pdf "supplementary material")
 - dies: contains the models such as the task embedding mlp and the task-TCN
 - rep: is used for preprocessing
 - confer/experiments: contains all the scripts to execute the experiment:
