@@ -10,12 +10,12 @@ For access to the GermanSolarFarm and the EuropeWindFarm dataset refer to [www.u
     - it also includes the [supplementary material](https://github.com/scribbler00/task-TCN/blob/main/doc/supplementary%20material.pdf "supplementary material")
 - dies: contains the models such as the task embedding mlp and the task-TCN
 - rep: is used for preprocessing
-- confer/experiments: contains all the scripts to execute the experiment:
-    1. `confer/experiments/create_splits.py` creates a cross validation splits of source and target data.
-    2. `confer/experiments/source.py` trains on those splits a source model. Can be either mlp or cnn.
-    3. `confer/experiments/mtl.py`  executes the mtl experiment   
-    4. `confer/experiments/zero_shot.py`  executes the zero shot learning experiment
-    5. `confer/experiments/target.py` executes the inductive TL experiment
+- most relevant scripts in required execution folder:
+    1. `./experiments/create_splits.py` creates a cross validation splits of source and target data.
+    2. `./experiments/source.py` trains on those splits a source model. Can be either mlp or cnn.
+    3. `./experiments/mtl.py`  executes the mtl experiment   
+    4. `./experiments/zero_shot.py`  executes the zero shot learning experiment
+    5. `./experiments/target.py` executes the inductive TL experiment
 
 
 ## Abstract
