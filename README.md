@@ -1,6 +1,21 @@
 # Task Embedding Temporal Convolution Networks for Transfer Learning Problems in Renewable Power Time-Series Forecast
 
 This repository is the source code for the article `Task Embedding Temporal Convolution Networks for Transfer Learning Problems in Renewable Power Time Series Forecast` accepted at the ECML 2021.
+For access to the GermanSolarFarm and the EuropeWindFarm dataset refer to [www.uni-kassel.de/eecs/ies/downloads](www.uni-kassel.de/eecs/ies/downloads).
+
+
+## Project Structure:
+
+- doc: contains various visalizations
+    - It also includes the [supplementary material](https://github.com/scribbler00/task-TCN/blob/main/doc/supplementary%20material.pdf "supplementary material")
+- dies: contains the models such as the task embedding mlp and the task-TCN
+- rep: is used for preprocessing
+- confer/experiments: contains all the scripts to execute the experiment:
+    1. `confer/experiments/create_splits.py` creates a cross validation splits of source and target data.
+    2. `confer/experiments/source.py` trains on those splits a source model. Can be either mlp or cnn.
+    3. `confer/experiments/mtl.py`  executes the mtl experiment   
+    4. `confer/experiments/zero_shot.py`  executes the zero shot learning experiment
+    5. `confer/experiments/target.py` executes the inductive TL experiment
 
 
 ## Abstract
@@ -27,18 +42,6 @@ However, in contrast to the task embedding for MLPs, an additional transformatio
 ![Sample Plot for a PV Park](./doc/sample_plot_ts_pv.png "Sample Plot for a PV Park")
 
 
-## Project Structure:
-
-- doc: contains various visalizations
-    - It also includes the [supplementary material](https://github.com/scribbler00/task-TCN/blob/main/doc/supplementary%20material.pdf "supplementary material")
-- dies: contains the models such as the task embedding mlp and the task-TCN
-- rep: is used for preprocessing
-- confer/experiments: contains all the scripts to execute the experiment:
-    1. `confer/experiments/create_splits.py` creates a cross validation splits of source and target data.
-    2. `confer/experiments/source.py` trains on those splits a source model. Can be either mlp or cnn.
-    3. `confer/experiments/mtl.py`  executes the mtl experiment   
-    4. `confer/experiments/zero_shot.py`  executes the zero shot learning experiment
-    5. `confer/experiments/target.py` executes the inductive TL experiment
 
 
 
